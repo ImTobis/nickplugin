@@ -1,0 +1,12 @@
+name: NickPlugin
+version: '1.2-SNAPSHOT'
+main: com.imtobis.nickplugin.NickPlugin
+api-version: 1.19
+authors: [ ImTobis ]
+description: Simple /nick /unnick plugin
+commands:
+  nick:
+    description: Změňte svůj nick
+    usage: /nick <nickname>
+  unnick:
+    description: Vraťte svůj původní nick
